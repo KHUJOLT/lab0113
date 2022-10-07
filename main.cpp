@@ -1,6 +1,13 @@
 #include <iostream>
 
+int Policz(int a, int b){
+    return a+b;
+}
+
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << endl;
+    cout<<"W pierwszym branchu; 2 + 3 = "<<Policz(2, 3)<<endl;
     return 0;
 }
